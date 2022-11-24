@@ -6,16 +6,14 @@ public class Author {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-    public Author ( Author newAuthor){
-        this.firstName= newAuthor.firstName;
-        this.lastName = newAuthor.lastName;
-    }
 
     public String getFirstName() {
+
         return this.firstName;
     }
 
     public String getLastName() {
+
         return this.lastName;
     }
 }
